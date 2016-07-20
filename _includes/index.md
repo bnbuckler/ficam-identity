@@ -114,6 +114,7 @@ The ICAM Subcommittee developed the government-wide Core Person Model for agenci
 
 ### Checklist
 
+> <i class="fa fa-check-square-o" aria-hidden="true"></i> &nbsp;**Identify where each data element is collected and stored.** It’s important to know the location of each attribute and the responsible office or group(s) that collect and maintain data elements. 
 
 > * **Map agency data to the model.** After you’ve identified the location of each data element, you should map the data model to the Core Person Model to tailor it for agency use. 
 

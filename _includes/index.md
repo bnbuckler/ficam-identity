@@ -7,13 +7,13 @@ Your agency collects the digital identity data of employees, contractors, and in
 
 This playbook will give you the answers to several common digital identity questions, including:
 
-  * How do I determine which identity attributes are needed to identify a person within my agency?
+> * How do I determine which identity attributes are needed to identify a person within my agency?
   
-  * How do I discover or locate authoritative data sources for particular identity data attributes in my agency?
+> * How do I discover or locate authoritative data sources for particular identity data attributes in my agency?
   
-  * How are authoritative data sources designated and protected?
+> * How are authoritative data sources designated and protected?
 
-  * What approaches exist to help my agency manage digital identities more effectively?
+> * What approaches exist to help my agency manage digital identities more effectively?
 
 <br>
 
@@ -39,12 +39,10 @@ The FICAM Architecture provides a high-level overview of identity management and
 
 We look forward to your use and contribution to this playbook. Please visit our contribute page to learn how to post questions and contribute content.
 
------------------------------------------------------------------------------
-<br>
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### <center> Table of Contents </center>
 
-<br>
 
 **[Plan Your Digital Identity Collection and Sharing Process](#plan)**
 	
@@ -83,15 +81,13 @@ We look forward to your use and contribution to this playbook. Please visit our 
 <br>
 
 -------------------------------------------------------------------------
-<br>
 
-# <a name="plan"></a>Plan Your Digital Identity Collection and Sharing Process
+# <span style="color: #0C5C89"><a name="plan"></a>Plan Your Digital Identity Collection and Sharing Process</span>
 
 Your agency should move towards developing an enterprise digital identity for its users. This identity is a single digital representation of an individual’s identity, maintained at an enterprise level, which uses attributes from authoritative source systems. This differs from many agency environments, where agencies often rely on locally-managed user identity accounts comprised of redundantly-collected identity attributes. The following steps provide guidance on the initial setup and planning of the collection process.
 
-<br>
 
-### <a name="step1"></a>Step 1: Determine which Core Identity Attributes your agency will collect**
+## <span style="color: #a61406"><a name="step1"></a>**Step 1: Determine which Core Identity Attributes your agency will collect**</span>
 
 An agency typically collects a wide variety of data elements about its employees, contractors, and other support staff who have access to agency resources. Within this data set, smaller subsets of attributes enable an agency to uniquely identify an individual within the organization and support the execution of meaningful access control decisions. This data set is known as the core digital identity. 
 
@@ -116,9 +112,8 @@ The ICAM Subcommittee developed the government-wide Core Person Model for agenci
 
 <br>
 
-**Checklist**
+### Checklist
 
-> * **Identify where each data element is collected and stored.** 	It’s important to know the location of each attribute and the responsible office or group(s) that collect and maintain data elements. 
 
 > * **Map agency data to the model.** After you’ve identified the location of each data element, you should map the data model to the Core Person Model to tailor it for agency use. 
 
@@ -126,9 +121,8 @@ The ICAM Subcommittee developed the government-wide Core Person Model for agenci
 
 > * **Identify opportunities for process integration.** You should identify redundancies in data collection associated with the Core Person Model and determine opportunities to integrate and streamline these business processes by referencing existing identity data. 
 
-<br>
 
-**Benefits**
+### Benefits
 
 > * **Eliminate redundant identity data creation.** Your agency will be able to reduce or eliminate the need for extra business processes that may collect redundant identity data for specific application use. 
 
@@ -138,17 +132,15 @@ The ICAM Subcommittee developed the government-wide Core Person Model for agenci
 
 > * **Increase the accuracy and reliability of provisioned identities.** This will provide consistency across enterprise identities and improve the accuracy of user account data established through automated provisioning workflows.
 
-<br>
 
-### <a name="step2"></a>Step 2: Identify which system(s) will serve as the Authoritative Data Source(s)
+## <span style="color: #a61406"><a name="step2"></a>**Step 2: Identify which system(s) will serve as the Authoritative Data Source(s)**</span>
 
 An authoritative data source for identity is a repository or system that contains attributes about an individual and is considered to be the primary or most reliable source for this information. In the case that two or more systems have mismatched or have conflicting data, the data within the authoritative data source is considered the most accurate.
 
 Within many federal agencies, authoritative identity data is dispersed across a number of different systems that are often independently managed. Some agencies, however, may operate a single centralized repository of identity data, such as an Identity Management System (IDMS). While your agency is not required to have a single repository of identity data, it’s expected your agency designate an authoritative data source for each data element in the Core Person Model and work to minimize the number of data sources used to collect and maintain the same identity information. In cases where an agency houses identity data elements across several authoritative data sources, it’s recommended that it share or map identifiers between the data sources to avoid collisions and errors.
 
-<br>
 
-**Checklist** 
+### Checklist 
 
 > * **Determine where identity data is stored.** Identifying which systems/resources are authoritative for specific identity attributes involves determining where identity attributes are first recorded and updated. 
 
@@ -183,7 +175,7 @@ The table below provides a number of common characteristics that you should look
 
 <br>
 
-**Security and Privacy Considerations**
+### Security and Privacy Considerations
 
 Authoritative data sources are subject to the security and privacy requirements in accordance with the Federal Information Security Management Act (FISMA) of 2002 and the Privacy Act of 1974. Given the sensitive nature of the information contained within authoritative identity data sources, your agency should closely observe the requirements outlined in FISMA and consider implementing optional enhancements to provide an additional measure of security, if justified based on the information system risk classification. Potential enhancements include:
 
@@ -220,7 +212,7 @@ Authoritative data sources are subject to the security and privacy requirements 
 ---------------------------------------------------------------------
 <br>
 
-# <a name="integrate"></a>Integrate Digital Identity Management Processes
+# <span style="color: #0C5C89"><a name="integrate"></a>Integrate Digital Identity Management Processes</span>
 
 Agencies collect identity data through a number of disparate processes that are conducted by offices and groups throughout the organization. These include new hire on-boarding, background investigation processing, credentialing, and access control administration. Typically, each of these processes is a manual, separate, and often redundant point for obtaining identity data.
 
@@ -228,13 +220,13 @@ Your agency should seek to streamline and integrate digital identity management 
 
 <br>
 
-### <a name="step3"></a>Step 3: Enhance and Improve back-end collection processes
+## <span style="color: #a61406"><a name="step3"></a>**Step 3: Enhance and Improve back-end collection processes**</span>
 
 Back-end processes are used to obtain identity data to determine where processes can be enhanced and improved. Per OMB Circular A-123, management is responsible for establishing and maintaining internal controls to achieve the objectives of effective and efficient operations, reliable financial reporting, and compliance with applicable laws and regulations. This responsibility is also held by ICAM implementers, who are accountable for improving the effectiveness, quality, and productivity of federal programs and operations. The goals of OMB Circular A-123 closely align with the effort to improve the processes within an agency that collect identity data.
 
 <br>
 
-**Checklist**
+### Checklist
 
 > * **Conduct internal information gathering with business owners to identify all of the processes within the core business areas that involve collection of identity.** Use specific criteria to define what constitutes a core business process. Take steps to ensure successful engagement and participation of relevant process owners. Take steps to ensure the availability of process and related data element information gathered.
 
@@ -250,7 +242,7 @@ Back-end processes are used to obtain identity data to determine where processes
 
 <br>
 
-**Benefits**
+### Benefits
 
 > * **Increased levels of process efficiency.** The need to manually collect and manage data significantly decreases, allowing agencies to focus on core business functions.
 
@@ -268,13 +260,13 @@ Back-end processes are used to obtain identity data to determine where processes
 
 <br>
 
-### <a name="step4"></a>Step 4: Streamline HR Processing
+## <span style="color: #a61406"><a name="step4"></a>**Step 4: Streamline HR Processing**</span>
 
 The Human Resources (HR) department is usually the primary source of personal data for federal employees and support staff within many agencies. HR is usually the first group within an agency to receive an individual’s identity information, often through the job application and employee on-boarding processes. By targeting integration and streamlining of these HR processes, you can see significant benefits to user life cycle management.
 
 <br>
 
-**Checklist**
+### Checklist
 
 > * **Streamline data exchange.** Integrate agency recruiting systems with government-wide applications to enable pre-population of on-boarding data provided by the applicant during the recruiting process.
 
@@ -288,13 +280,13 @@ The Human Resources (HR) department is usually the primary source of personal da
 
 <br>
 
-### <a name="step5"></a>Step 5: Streamline Background Investigation Processing
+## <span style="color: #a61406"><a name="step5"></a>**Step 5: Streamline Background Investigation Processing**</span>
 
 Data collected during a background investigation contains a person’s core digital identity. By integrating and streamlining personnel security and background investigation processes, the processes around creating and populating the digital identity can be significantly improved.
 
 <br>
 
-**Checklist**
+### Checklist
 
 > * **Use data captured during the PIV enrollment process.** Capturing data once and reusing it creates a more efficient process, while a limited number of data collection points enhances data privacy. For example, many biographic data elements (e.g., name, DOB) collected during PIV enrollment can also be used during the background investigation to reduce redundancy.
 
@@ -308,7 +300,7 @@ Data collected during a background investigation contains a person’s core digi
 
 <br>
 
-**CVS Database**
+### CVS Database
 
 The Office of Personnel Management (OPM) is responsible for maintaining the CVS database. The CVS stores information related to security clearance, suitability, and access decisions for contractor personnel. OPM also stores data related to credentialing determinations under HSPD-12, suitability or fitness for federal employment, fitness for contractor employees, and eligibility for access to classified information to facilitate reciprocity.
 
@@ -328,7 +320,7 @@ Your agency’s responsibilities relating to the use of the CVS include the foll
 
 <br>
 
-### <a name="step6"></a>Step 6: Streamline Contractor Processing
+## <span style="color: #a61406"><a name="step6"></a>**Step 6: Streamline Contractor Processing**</span>
 
 Although contractors may require similar access to federal employees, the methods and locations for collecting and maintaining their identity data are often very different. Digital identities for the contractor population can be challenging to manage due to a number of factors, including:
 
@@ -344,7 +336,7 @@ To overcome these challenges, your agency should establish a process for managin
 
 <br>
 
-**Checklist**
+### Checklist
 
 > * **Enhance on-boarding process.** Your agency should replace manual, paper-based forms and processes with digital methods (e.g., digital signatures, online portals) wherever possible during the contractor on-boarding process. This process should be communicated and followed by all relevant parties so there’s no ambiguity in the way contractors are introduced into the agency.
 
@@ -371,13 +363,13 @@ To overcome these challenges, your agency should establish a process for managin
 -------------------------------------------------------------------------------
 <br>
 
-# <a name="design"></a>Design your Authoritative Attribute Exchange Service (AAES)
+# <span style="color: #0C5C89"><a name="design"></a>Design your Authoritative Attribute Exchange Service (AAES)</span>
 
 Agencies have a common need to collect and share basic identity data within their organization to support credential issuance, provisioning of user accounts, and access control administration. The Authoritative Attribute Exchange Service (AAES) capability is the means to share authoritative identity attributes within an agency securely. An AAES is a technical solution that gives agencies the ability to connect various authoritative data sources and share identity and other attributes with the shared enterprise infrastructure.
 
 The AAES capability will allow your agency to link the authoritative sources of identity information with customers of identity data across the agency, eliminating the need to redundantly collect identity data at each point where it’s used.
 
-### <a name="step7"></a>Step 7: Address the protocol, payload, and policy of your attribute exchange
+## <span style="color: #a61406"><a name="step7"></a>**Step 7: Address the protocol, payload, and policy of your attribute exchange**</span>
 
 When seeking to electronically share attribute data between authoritative source systems and relying parties, you must be address protocols, payload, and agency policies to support the attribute exchange.
 
@@ -408,13 +400,13 @@ The table below describes several common protocols used for exchanging identity 
 
 <br>
 
-### <a name="step8"></a>Step 8: Establish a process(es) to link identity attributes
+## <span style="color: #a61406"><a name="step8"></a>**Step 8: Establish a process(es) to link identity attributes**</span>
 
 Agencies should eliminate duplicate and/or redundant digital identity records to ensure that each federal user has only a single digital identity. Managing a single digital identity record for each user within the organization requires that an agency establish a process to link or bind identity attributes to the appropriate record. There are three common techniques for accomplishing this: (1) Unique Person Identifiers, (2) Multi-Attribute Keys, and (3) Manual Identity Attribute Correlation. 
 
 <br>
 
-**Checklist**
+### Checklist
 
 > * **Evaluate approaches for linking identity attributes to the appropriate record and determine which method meets your needs.**
 
@@ -514,7 +506,7 @@ Agencies should eliminate duplicate and/or redundant digital identity records to
 
 <br>
 
-### <a name="step9"></a>Step 9: Integrate your AAES with your existing IT infrastructure
+## <span style="color: #a61406"><a name="step9"></a>**Step 9: Integrate your AAES with your existing IT infrastructure**</span>
 
 Designing an AAES solution architecture requires agencies to consider the capabilities presented in the FICAM Architecture, existing ICAM investments (e.g., logical access solutions), and your agency’s overall IT infrastructure. The goal of this step is to find how an AAES capability will integrate with your agency’s IT infrastructure and provide digital identity attribute sharing services.
 
@@ -547,13 +539,13 @@ The FICAM Architecture [Applications View](http://gsa.github.io/ficam-arch/appli
 
 <br>
 
-### <a name="step10"></a>Step 10: Implement attribute management and distribution functionality
+## <span style="color: #a61406"><a name="step10"></a>**Step 10: Implement attribute management and distribution functionality**</span>
 
 This step describes the functionality and approaches for implementing the AAES Infrastructure components, the Authoritative Attribute Manager (AAM) and the Authoritative Attribute Distributor (AAD). In some cases, it may be possible to achieve the functionality described for both the AAM and AAD by implementing a single product or tool. On the other hand, it’s also possible that multiple products and/or purpose-built applications could be integrated to create a single AAES solution. Your agency should evaluate their existing and planned ICAM investments as well as the agency’s infrastructure and select an implementation approach that best meets the business needs and mission requirements of your agency.
 
 <br>
 
-**Checklist**
+### Checklist
 
 > * **Analyze which AAM implementation option meets your needs.** The Authoritative Attribute Manager (AAM) compares identity attributes from different authoritative data sources within an agency and provides a single authoritative source of digital identity. It acts as a central hub of attributes by combining data from the various sources through either resource connectors or web services. As a result, the attribute manager de-conflicts differences that exist in the same attribute between multiple sources. The AAM can be implemented in several ways, based on an agency’s existing investments and infrastructure requirements, including:
 
@@ -592,7 +584,7 @@ This step describes the functionality and approaches for implementing the AAES I
 --------------------------------------------------------------------------------
 <br>
 
-# <a name="considerations"></a>Final Implementation Considerations 
+# <span style="color: #0C5C89"><a name="considerations"></a>Final Implementation Considerations</span>
 
 Deploying an AAES capability requires considerable planning, support, and coordination from various groups with your agency. Specific planning and coordination considerations include the following:
 

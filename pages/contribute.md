@@ -5,7 +5,7 @@ permalink: /contribute/
 ---
 --------------------------------------------------------------
 
-This site is for the collaborative development of the Federal Identity, Credential and Access Management (FICAM) Program's Identity Collection Playbook. 
+This site is for the collaborative development of the Federal Identity, Credential and Access Management (FICAM) Program's Streamline Identity Management Playbook. 
 
 ### How to Contribute
 

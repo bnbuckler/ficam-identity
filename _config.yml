@@ -28,6 +28,7 @@ repos:
 # Build settings
 markdown: kramdown
 
+
 exclude:
 - bin
 - config.rb
@@ -45,11 +46,46 @@ navigation:
   url: index.html
   internal: true
   coll: false
-- text: Contribute
-  url: contribute
+- text: Step 1 - Core Identity Attribute Collection
+  url: 1_step-1
   internal: true
   coll: false
-  
+- text: Step 2 - Identify Authoritative Data Source(s)
+  url: 2_step-2
+  internal: true
+  coll: false
+- text: Step 3 - Improve Back-end Collection Processes
+  url: 3_step-3
+  internal: true
+  coll: false
+- text: Step 4 - Streamline HR Processing
+  url: 4_step-4
+  internal: true
+  coll: false
+- text: Step 5 - Streamline Background Investigation Processing
+  url: 5_step-5
+  internal: true
+  coll: false
+- text: Step 6 - Streamline Contractor Processing
+  url: 6_step-6
+  internal: true
+  coll: false
+- text: Step 7 - Address Your Attribute Exchange Elements
+  url: 7_step-7
+  internal: true
+  coll: false
+- text: Step 8 - Link Identity Attributes
+  url: 8_step-8
+  internal: true
+  coll: false
+- text: Step 9 - Integrate Your AAES With Your IT infrastructure
+  url: 9_step-9
+  internal: true
+  coll: false
+- text: Step 10 - Implement Attribute Exchange Infrastructure
+  url: 10_step-10
+  internal: true
+  coll: false
 include:
 - _stylesheets
 - _javascript

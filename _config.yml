@@ -46,7 +46,7 @@ navigation:
   url: index.html
   internal: true
   coll: false
-- text: Step 1 - Core Identity Attribute Collection
+- text: Step 1 - Collect Core Identity Attributes
   url: 1_step-1
   internal: true
   coll: false
@@ -70,7 +70,7 @@ navigation:
   url: 6_step-6
   internal: true
   coll: false
-- text: Step 7 - Address Your Attribute Exchange Elements
+- text: Step 7 - Address Attribute Exchange Elements
   url: 7_step-7
   internal: true
   coll: false
@@ -78,7 +78,7 @@ navigation:
   url: 8_step-8
   internal: true
   coll: false
-- text: Step 9 - Integrate Your AAES With Your IT infrastructure
+- text: Step 9 - Integrate AAES With IT Infrastructure
   url: 9_step-9
   internal: true
   coll: false
